@@ -1,0 +1,24 @@
+<!-- This program is completely wrong right now -->
+
+<% include header %>
+
+<p> You will be the only one who can see this content. Don't worry! </p>
+<p> What is your name? </p>
+<form name="input" action="/survey/results.html" method="get">
+First name: <input type="text" name="firstname" value=""><br>
+Last name: <input type="text" name="lastname" value=""><br>
+<p> Are you male or female? </p>
+<input type="radio" name="sex" value="male">Male<br>
+<input type="radio" name="sex" value="female">Female<br>
+<p> How do you mostly get around? </p>
+<input type="radio" name="transport" value="car">Car<br>
+<input type="radio" name="transport" value="bus">Bus<br>
+<input type="radio" name="transport" value="bike">Bike<br>
+<input type="radio" name="transport" value="other">Other<br>
+<input type="radio" name="transport" value="nothing">Nothing<br>
+<p> Submit your answers using the button below</p>
+<input type="submit" value="Submit">
+</form>
+</div>
+
+<% include footer %>
