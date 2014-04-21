@@ -1,0 +1,18 @@
+<!-- program does not work right now -->
+
+<% include header %>
+
+<div id="content">
+string firstname = Request ["firstname"];
+string lastname = Request ["lastname"];
+string sex = Request ["sex"];
+string transport = Request ["transport"];
+<p> Here are all the answers you gave: <br>
+First name: @firstname <br>
+Last name: @lastname <br>
+Sex: @sex <br>
+All your methods of getting around: @transport </p>
+<a href="/survey.html">Start over</a>
+</div>
+
+<% include footer %>
